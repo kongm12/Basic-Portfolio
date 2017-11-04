@@ -1,65 +1,50 @@
-<!DOCTYPE html>
+<!--index.html-->
+<!doctype html>
 <html>
 <head>
 	<title>Miles Kong</title>
-<style>
-
-body {
-   width:100%;
-   margin:auto;
-}
-
-.container {
-   width:960px;
-   margin: 0 auto;
-}
-.header {
-	background:#4aaaa5; 
-	width: 100%;
-	top:0;
-	position: fixed;
-	font-color:white;
-}
-.name {
-	float:left;
-	font-family:"times new roman";
-	font-size: 15px;
-}
-a {
-	text-decoration: none;
-	color: #fff;
-}
-li {
-	list-style:none;
-	float: left;
-	margin-left:15px;
-}
-.nav {
-	float:right;
-}
-body {
-	background-image: url("../images/dust_scratches.png");
-}
-</style>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div class="header">
-
-		<div class="container">
-
-			<div class="name">
-					<h1>Miles Kong</h1>
-			</div>
+	
+		<header>
+			<div class="containerA">
+			<h1 class="myname">Miles Kong</h1>
 			<div class="nav">
-				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Porfolio</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
+			
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				
+			</div>
+			</div>
+		</header>
+		<div class="containerB">
+			<div class="aboutme"> 
+				<h1 class="heading">About Me</h1>
+				<hr>
+				<img src="assets/images/tetonprofpic.jpg" alt="Profile Picture">
+				<p>My name is Miles Kong. I graduated from Rutgers University with a degree in Kinesiology which is the study of body mechanics.  I have always had a passion/affinity in helping others, and for a long time I thought the medical field was my calling. After lots of thought, I decided to put health care in the back seat for the time being and pursue a new career in computer science.My hobbies include traveling, fishing, hiking, camping, football, and basketball.  My favorite trip was visiting Montana and Wyoming this past summer</p>
+			</div>
+
+			<div class="connectwithme">
+				<h2 class="heading">Connect with Me</h2>
+				<hr>
+				<a href="https://github.com/kongm12" target="_blank">
+					<img src="assets/images/github.png" alt="GitHub">
+				</a>
+				<a href="https://www.linkedin.com/in/mileskong/" target="_blank">
+					<img src="assets/images/linkedin.png" alt="LinkedIn">
+				</a>
+				<a href="https://stackexchange.com/users/12167320/miles-kong">
+					<img src="assets/images/stackoverflow.png" alt="Stackoverflow">
+				</a>
 			</div>
 		</div>
-	</div>
-	<div class="container">
-	<div class="content">
-		<p>My name is Miles Kong. I graduated from Rutgers University with a degree in Kinesiology which is the study of body mechanics.  I have always had a passion/affinity in helping others, and for a long time I thought the medical filed was my calling. After lots of thought, I decided to put health care in the back seat for the time being and pursue a new career in computer science.My hobbies include traveling, fishing, hiking, camping, football, and basketball.  My all time favorite trip was visiting Montana and Wyoming this past summer</p>
-
+	
+	<footer>
+		&copy; Copyright 2017 Miles Kong
+	</footer>
+</body>
+</html>
